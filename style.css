@@ -28,3 +28,39 @@ header{
     background-repeat:no-repeat;
     padding-top: 70px;
 }
+.participantsButton{
+    background: url('images/Participants\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+}
+.chatButton{
+    background: url('images/Chat\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+}
+.fileButton{
+    background: url('images/File\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+}
+.shareButton{
+    background: url('images/Share\ screen\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+}
+.recButton{
+    background: url('images/Record\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+}
+.endButton{
+    padding-left: 30px;
+    padding-right: 30px;
+    float: right;
+}
+
