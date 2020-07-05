@@ -10,3 +10,19 @@ header{
 .participantView{
     margin-top: 2%;
 }
+.audioButton{
+    background: url('images/Audio\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 100%;
+}
+.videoButton{
+    background: url('images/Video\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}
+.phoneButton{
+    background: url('images/Phone\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+}
