@@ -4,3 +4,9 @@ body{
 .fullscreenIcon{
     float: right;
 }
+header{
+    margin: 10px;
+}
+.participantView{
+    margin-top: 2%;
+}
