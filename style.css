@@ -63,4 +63,13 @@ header{
     padding-right: 30px;
     float: right;
 }
+.reactionButton{
+    background: url('images/Reaction\ icon.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    padding-top: 70px;
+}
+.container-fluid{
+    justify-content: center;
+}
 
