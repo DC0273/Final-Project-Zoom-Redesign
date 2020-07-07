@@ -37,20 +37,72 @@
 
         <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
             <div class="btn-group mr-2" role="group" aria-label="First group">
-              <button type="button" class="btn btn-secondary participantsButton">Participants</button>
+              <button type="button" class="btn btn-secondary participantsButton" onclick="openParticipantNav()">Participants</button>
               <button type="button" class="btn btn-secondary chatButton">Chat</button>
               <button type="button" class="btn btn-secondary fileButton">Files</button>
               <button type="button" class="btn btn-secondary shareButton">Share Screen</button>
               <button type="button" class="btn btn-secondary recButton">Record</button>
-              <button type="button" class="btn btn-secondary reactionButton" data-container="body" data-toggle="popover" data-placement="top" data-content="Vivamus sagittis lacus vel augue laoreet rutrum faucibus.">
+              <button type="button" class="btn btn-secondary reactionButton" data-container="body" data-toggle="popover" data-placement="top" data-content="Dan is awesome">
                 Reactions
               </button>
             </div>
         
             <div class=“container”>
-                <button type="button" class="btn btn-danger endButton">End</button>
+              <a href="index.html"> <button type="button" class="btn btn-danger endButton">End</button> </a>
                 </div>
-
+            
+          <!-- ***************************************************** -->
+          <div id="myParticipantNav" class="participantNav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeParticipantNav()">&times;</a>
+            <a href="#">Participants</a>
+            <div class="chip">
+              <img src="images/L.png" alt="Person" width="26" height="6" />
+              Ling
+            </div>
+            <hr />
+            <div class="chip">
+              <img src="images/D.png" alt="Person" width="26" height="6" />
+              Dan
+            </div>
+            <hr />
+            <div class="chip">
+              <img src="images/Y.png" alt="Person" width="26" height="6" />
+              Yonas
+            </div>
+            <hr />
+            <div class="chip">
+              <img src="images/K.png" alt="Person" width="26" height="6" />
+              Kai
+            </div>
+            <hr />
+            <div class="chip">
+              <img src="images/J.png" alt="Person" width="26" height="6" />
+              JJ
+            </div>
+            <hr />
+            <div class="chip">
+              <img src="images/C.png" alt="Person" width="26" height="6" />
+              Charles
+            </div>
+            <hr />
+            <div class="chip">
+              <img src="images/M.png" alt="Person" width="26" height="6" />
+              Manuel
+            </div>
+            <hr />
+            <div class="chip">
+              <img src="images/S.png" alt="Person" width="26" height="6" />
+              Skye
+            </div>
+            <hr />
+            <div class="chip">
+              <img src="images/B.png" alt="Person" width="26" height="6" />
+              Barnaby
+            </div>
+          </div>
+          <span style="font-size:30px;cursor:pointer" onclick="openParticipantNav()">&#9776; open</span>
+        <!-- ***************************************************** -->
+        
           
  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
