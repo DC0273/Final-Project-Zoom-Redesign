@@ -185,6 +185,9 @@ header{
   .breakoutTeams{
       text-indent: 20px;
   }
+  .mainTool{
+      justify-content: center;
+  }
 
   @media screen and (max-height: 450px) {
     .participantNav {padding-top: 15px;}
